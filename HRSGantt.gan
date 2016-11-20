@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="HotelReservationSystemGanttChart" company="" webLink="http://" view-date="2016-09-19" view-index="0" gantt-divider-location="512" resource-divider-location="300" version="2.8.1" locale="tr_TR">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="İsim" width="339" order="0"/>
+        <field id="tpd4" name="Başlangıç tarihi" width="56" order="1"/>
+        <field id="tpd5" name="Bitiş tarihi" width="113" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="İsim" width="210" order="0"/>
+        <field id="1" name="Varsayılan rol" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="HotelReservationSystem" color="#8cb6ce" meeting="false" start="2016-10-10" duration="55" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="3" name="Css &amp; User Interface" color="#8cb6ce" meeting="false" start="2016-10-13" duration="2" complete="0" expand="true"/>
+        <task id="6" name="Database Modeling &amp; Connections Control" color="#8cb6ce" meeting="false" start="2016-10-13" duration="6" complete="0" expand="true"/>
+        <task id="8" name="Create Admin Page" color="#8cb6ce" meeting="false" start="2016-10-20" duration="2" complete="0" expand="true"/>
+        <task id="10" name="Admin Functions[approvement cases]" color="#8cb6ce" meeting="false" start="2016-10-20" duration="2" complete="0" expand="true"/>
+        <task id="14" name="Create Register &amp; Login Page" color="#8cb6ce" meeting="false" start="2016-10-24" duration="3" complete="0" expand="true"/>
+        <task id="19" name="Create Hotel Page" color="#8cb6ce" meeting="false" start="2016-10-26" duration="7" complete="0" expand="true"/>
+        <task id="32" name="Create Pages Hotel Functions" color="#8cb6ce" meeting="false" start="2016-11-03" duration="6" complete="0" expand="true"/>
+        <task id="35" name="Create Main Page and Functions[Search Hotel &amp; View Hotel ]" color="#8cb6ce" meeting="false" start="2016-11-10" duration="11" complete="0" expand="true"/>
+        <task id="37" name="Reservation Page &amp; Functions" meeting="false" start="2016-11-24" duration="9" complete="0" expand="true"/>
+        <task id="39" name="Create Payment Page" meeting="false" start="2016-12-06" duration="5" complete="0" expand="true"/>
+        <task id="41" name="Testing" meeting="false" start="2016-12-12" duration="4" complete="0" expand="true"/>
+        <task id="43" name="Create Error Pages" meeting="false" start="2016-12-15" duration="2" complete="0" expand="true"/>
+        <task id="47" name="Error Handling Test" meeting="false" start="2016-12-19" duration="3" complete="0" expand="true"/>
+        <task id="50" name="Testing To Presentation" meeting="false" start="2016-12-21" duration="3" complete="0" expand="true"/>
+        <task id="52" name="RAD" meeting="false" start="2016-10-10" duration="30" complete="0" expand="true"/>
+        <task id="53" name="SDD" meeting="false" start="2016-11-21" duration="14" complete="0" expand="true"/>
+        <task id="54" name="ODD" meeting="false" start="2016-12-09" duration="9" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="4" name="Arda Yazkan" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Ecem Naz Kılıc" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="C.Sonay Meral" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Orcun Tez" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
